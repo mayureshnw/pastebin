@@ -1,0 +1,32 @@
+{
+  "name": "pastebin",
+  "private": true,
+  "version": "0.0.1",
+  "description": "pastebin",
+  "keywords": [],
+  "dependencies": {
+    "include-all": "^1.0.0",
+    "rc": "1.0.1",
+    "sails": "~0.12.14",
+    "sails-disk": "~0.10.9",
+    "skipper-s3": "^0.5.9"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js --exec babel-node --presets es2015,stage-2"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mnw2212/pastebin.git"
+  },
+  "author": "Mayuresh Waykole",
+  "license": "MIT License",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.12.1"
+  }
+}
